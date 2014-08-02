@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  drug_name: MyString
+  time_per_day: 1
+  dose: MyString
+  comment: MyText
+
+two:
+  drug_name: MyString
+  time_per_day: 1
+  dose: MyString
+  comment: MyText

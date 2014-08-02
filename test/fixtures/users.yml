@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  first_name: MyString
+  Last_name: MyString
+  member_number: 1
+  member_since: 2014-08-02 15:25:44
+
+two:
+  first_name: MyString
+  Last_name: MyString
+  member_number: 1
+  member_since: 2014-08-02 15:25:44
