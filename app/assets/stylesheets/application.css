@@ -13,3 +13,37 @@
  *= require_tree .
  *= require_self
  */
+
+
+
+
+.navbar-inner {
+  background-color: #000; /* background color will be black for all browsers */
+  background-image: none;
+  background-repeat: no-repeat;
+  filter: none;
+}
+
+.panel{
+	position:absolute;
+	background-color:rgba(255,255,255,.5);
+	text-align: left;
+	text-align: left;
+	width:620px;
+	padding:20px;
+	margin: center;
+    top:20%;
+    left:20%;
+}
+
+.panel2{
+	position:absolute;
+	background-color:rgba(255,255,255,.5);
+	text-align: center;
+	text-align: center;
+	width:220px;
+	padding:10px;
+	margin: center;
+    top:20%;
+    left:41%;
+}

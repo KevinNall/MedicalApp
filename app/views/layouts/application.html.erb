@@ -1,17 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>MedicalApp</title>
+  <title>Medical App</title>
+
+  <link rel="shortcut icon" href="http://www.irunoninsulin.com/wp-content/uploads/2012/06/pill.jpg">
+
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
 
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 
   <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
 </head>
+
+
+
+<nav class="navbar navbar-inverse" role="navigation">
+     <a class="navbar-brand" href="/homepage/index">Home</a>
+      <a class="navbar-brand" href="/homepage/about">About Us</a>
+      <a class="navbar-brand" href="/users/index">Users</a>
+      <a class="navbar-brand" href="/medications/index">Medications</a>
+      <a class="navbar-brand" href="/homepage/pricing">Pricing</a>
+      <a class="navbar-brand" href="/homepage/contact_us">Contact Us</a>
+      
+</nav>
+
+
+
+
 <body>
+
+  <body style="background:#80BFFF">
+
+  
+
 
 <%= yield %>
 
