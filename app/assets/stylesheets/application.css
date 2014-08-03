@@ -15,8 +15,6 @@
  */
 
 
-
-
 .navbar-inner {
   background-color: #000; /* background color will be black for all browsers */
   background-image: none;
@@ -32,7 +30,7 @@
 	width:620px;
 	padding:20px;
 	margin: center;
-    top:20%;
+    top:60%;
     left:20%;
 }
 
@@ -41,9 +39,21 @@
 	background-color:rgba(255,255,255,.5);
 	text-align: center;
 	text-align: center;
-	width:220px;
+	width:420px;
 	padding:10px;
 	margin: center;
-    top:20%;
-    left:41%;
+    top:60%;
+    left:31%;
+}
+
+.panel3{
+	position:absolute;
+	background-color:rgba(255,255,255,.5);
+	text-align: center;
+	text-align: center;
+	width:420px;
+	padding:10px;
+	margin: center;
+    top:90%;
+    left:31%;
 }
